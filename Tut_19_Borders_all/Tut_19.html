@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background, Height, width and borders</title>
+    <style>
+        #Firstpera{
+            background-color: red;
+            height: 100 px;
+            width: 20%;
+
+            border: 5px solid green;
+            /* border: 5px;
+            border-style: solid;
+            border-color: blue;  */
+            border-radius: 10px; /*Corner*/           
+        }
+
+        #Secondpera{
+
+            background-color: rgb(15, 104, 12);
+            height: 100px;
+            width: 20%;
+            border-top: 5px solid violet;
+            border-bottom: 5px solid rgb(136, 148, 27);
+            border-left: 5px solid rgb(100, 8, 8);
+            border-right: 5px solid rgb(23, 17, 112);
+            border-top-left-radius: 20px;
+        }
+
+        #Thirdpera{
+            height: 200px;
+            width: 455px;
+            background-image: url('https://www.codewithharry.com/_next/image/?url=%2Fimg%2Flogo-blue.png&w=48&q=75');
+            border: 2px solid red;
+            background-repeat: no-repeat; /*No repeat image*/
+            /* background-position: 20% top; */
+            /* background-position: center top; */
+            /* background-position: 25% 60%; */
+            /* background-position: center center; */
+            background-position: center top;
+        }
+    </style>
+</head>
+<body>
+    <h2>This is a heading</h2>
+    <p id="Firstpera">This is a Line of code</p>
+
+    <h2>This is a Second heading</h2>
+    <p id="Secondpera">This is a Second Line of code</p>
+
+    <h2>This is a Third heading</h2>
+    <p id="Thirdpera">This is a Third Line of code</p>
+</body>
+</html>

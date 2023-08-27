@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>This is Form Tutorial</h1>
+    <form action="backend.php">
+       <!-- lable is use to jb ap name per click kro too box selet ho -->
+        <div>
+            <label for="name">Name :</label> <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="roll">Roll :</label> <input type="text" name="myRoll" id="roll">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email :</label> <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date :</label> <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            Bonus : <input type="number" name="MyNumber">
+        </div>
+        <div>
+            <label for="eli">Are you eligible : </label> <input type="checkbox" name="Myeligible" id="eli">
+        </div>
+        <br>
+        <div>
+            Gender : Male <input type="radio" name="MyGender"> Female <input type="radio" name="MyGender">
+        </div>
+        <br>
+        <div>
+            Write about yourself : <br>
+            <textarea name="MyText" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car</label>
+            <select name="Mycar" id="car">
+                <option value="ind">Indica</option>
+                <option value="swf">Swift</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+
+    </form>
+</body>
+</html>
